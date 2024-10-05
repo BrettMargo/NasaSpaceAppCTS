@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nasa-space-apps-2024-cts"
+version = "0.0.1-dev"
+authors = [
+  { name="parker-research", email="author@example.com" },
+]
+description = "Competition entry for the 2024 NASA Space Apps competition"
+readme = "README.md"
+license = "Unlicense"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: The Unlicense (Unlicense)",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "requests",
+  "nicegui",
+  "loguru",
+]
+
+[project.urls]
+Homepage = "https://github.com/BrettMargo/NasaSpaceAppCTS"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
