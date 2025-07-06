@@ -1,6 +1,8 @@
 # NASA Space Apps 2024 (CalgaryToSpace Team)
 CalgaryToSpace team for 2024 NASA Space Apps Challenge
 
+https://youtu.be/581S2xZr3Lw
+
 Brainstorming/planning google doc:
 https://docs.google.com/document/d/1h8MYQXKIfUBvt8V1JY9K4qhVGF7CmPI2ib50BCMmhZs/edit?usp=sharing
 
